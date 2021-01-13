@@ -73,7 +73,8 @@ public class P114
         return sc.nextInt();
     }
 
-    public static void setWeight(Student[] plebs){
+    public static void setWeight(Student[] plebs)
+    {
         double[] weightsTemp = new double[3];
         for(int i = 0; i < weightsTemp.length; i++)
         {
@@ -131,13 +132,6 @@ public class P114
         Student best = plebs[0];
         for (int i = 1; i < plebs.length; i++) if (plebs[i].mark > best.mark) best=plebs[i];
         System.out.println(best.getAluno());
-    }
-
-    public static void hotFix()
-    {
-        double[] value = new double[3];
-        for (int i = 0; i < value.length; i++) value[i] = sc.nextDouble();
-        System.out.println("Values changed.");
     }
     
     public static void saveData(Student[] plebs) throws IOException
