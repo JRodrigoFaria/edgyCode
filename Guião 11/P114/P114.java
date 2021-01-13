@@ -49,8 +49,8 @@ public class P114
                     setWeight(plebs);
                     break;
                 case 9:
-					saveData(plebs);
-					break;
+		    saveData(plebs);
+		    break;
                 case 0: System.exit(0);
             }
         }
